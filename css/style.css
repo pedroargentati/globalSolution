@@ -1,0 +1,252 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*-------- Header --------*/
+
+header {
+    display: block;
+    width: 100%;
+    height: 25vh;
+    border: 1px solid black;
+}
+
+.header-title {
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title-h1 {
+    font-size: 1.8vw;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: #444;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.header-nav-li {
+    display: flex;
+    margin-right: 5vw;
+
+}
+
+.header-nav-link {
+    display: flex;
+    text-decoration: none;
+    color: #DDD;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+}
+
+.header-nav-link:hover {
+    color: #AAA;
+}
+
+/*-------- Section-1 --------*/
+
+.img-section {
+    background-image: url(../images/img-london-city.jpg);
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* VER COM O PROF POR CAUSA DO SERGIAO */
+}
+
+.img-section2 {
+    background-image: url(../images/amsterdam.jpg);
+    width: 100%;
+    height: 78vh;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section-2 {
+    font-size: 3vw;
+    /* margin-bottom: 12vh; */
+}
+
+.img-section-1 {
+   font-size: 3vw;
+   margin-bottom: 12vh;
+}
+
+.section-1 {
+    display: flex;
+    width: 100%;
+    height: 73vh;
+    background-image: url(../images/smart-cities-main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.section-about {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.about-city1 {
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(230,233,230);
+}
+
+.about-city2 {
+    width: 50%;
+    height: 60vh;
+    background-color:  #Ddd;
+}
+
+.about-title {
+    margin: 1vh 0 0.5vh 1.2vw;
+}
+
+.about-paragraph {
+    margin: 1vh 0 0.5vh 1.2vw;
+    text-align: justify;
+    text-indent: justify;
+    width: 40vw;
+    line-height: 4vh;
+}
+
+/*-------- Container - Cards --------*/
+
+.container1 {
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(230,233,230);
+}
+
+.card {
+    width: 33.333%;
+    height: 50vh;
+    border: 1px solid rgb(37, 37, 87);
+    margin: 2vh 1vw 0 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-block {
+    display: block;
+}
+
+.card-title {
+    font-size: 1.6vw;
+    margin-bottom: .6vh;
+    margin-left: 1vw;
+    padding-bottom: 4vh;
+}
+
+.card-paragraph {
+    margin: 0 3vw 3vh 1vw;
+    padding-bottom: 4vh;
+}
+
+/* -------- Footer --------*/
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: block;
+}
+
+.foter-all { 
+    display: block;
+}
+
+.footer-title {
+    color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-discord {color: #6441a5;}
+.fa-youtube-square{color: #c4302b;}
+.fa-instagram {color: #3f729b;}
+
+.fa-discord:hover {
+    color: #582fa5;
+    transition: 0.3s all case;
+}
+
+.fa-youtube-square:hover{
+    color: #c4110b;
+    transition: 0.3s all case;
+}
+
+.fa-instagram:hover {
+    color: #1a64a0;
+    transition: 0.3s all case;
+}
+
+.footer-social-links {
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+.footer-social-medias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2vh 1vw 3vh 0;
+}
+
+span {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8vw;
+    font-family: 'Oxygen', sans-serif;
+}
